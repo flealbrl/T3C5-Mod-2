@@ -1,0 +1,88 @@
+/* COMENTÁRIO */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+*  {
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    background: url(../img/background-normal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body header#cabecalho{
+    display: block;
+    background-color: rgb(39, 39, 39);
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+body header#cabecalho h1{
+    text-align: center;
+    color: rgb(163, 13, 13);
+}
+
+body section div{
+    text-align: center;
+}
+
+body section div#texto{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+body section div#texto h2{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+body section div#texto h3{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+}
+
+body section div#texto h3 span{
+    color: rgb(173, 2, 2);
+}
+
+body section div#img img{
+    text-align: center;
+    width: 35%;
+    border-radius: 1rem;
+    border: .2rem solid rgba(0, 0, 0, 0.404);
+}
+
+body section div#botao button{
+    border: 1px solid rgb(168, 21, 21);
+    background-color: rgb(168, 21, 21);
+    color: #ffffff;
+    padding: 1rem;
+    font-size: .8vw;
+    font-weight: 600;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .4s ease-out;
+}
+ 
+body section div#botao button:hover{
+    background-color: rgb(168, 21, 21);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.300);
+    color: #ffffff;
+    padding: .5rem;
+    position:absolute;
+    bottom:0;
+    width: 99.16%;
+}

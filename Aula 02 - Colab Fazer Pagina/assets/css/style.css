@@ -43,6 +43,7 @@ body{
 }
 
 .menu ul li a{
+    
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 30px;
@@ -64,8 +65,7 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.315); 
     color: black;
-    
-    padding:50px; 
+    padding-bottom: 30px; 
 }
 
 
@@ -73,6 +73,7 @@ body{
     color: white;
     margin: 25px;
 }
+
 .conteudo a{
     color: white;
     text-decoration: none;
